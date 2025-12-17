@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER ACCOUNT</title>
+    <link rel="icon" type="fav-icon" href="./IMAGES-2025/10230703.jpg">
+</head>
+
+<style>
+    title{
+        object-fit: cover;
+        border: 3rem;
+        border-radius: 4rem;
+        border-style: solid;
+        border-color: black;
+    }
+    body{
+        background-color: rgb(107, 69, 69);
+    }
+    .loginForm{
+        text-align: center;
+        padding-top: 10rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        color: azure;
+        background-color: black;
+        border: 3rem;
+        border-radius: 1rem;
+        margin-left: 26rem;
+        margin-right: 26rem;
+        padding-bottom: 4rem;
+        outline: auto;
+        outline-width: 1px;
+        outline-style: solid;
+        outline-color: red;
+    }
+    #buttonSubmit:focus{
+color: black;
+background-color: red;
+    }
+</style>
+<body>
+<hr style="width: 20rem;">
+    <div class="logo" style="font-size: x-large;font-family: Arial, Helvetica, sans-serif;font-weight:
+     800;text-align: center; padding-top: 2em;font-style: unset;color: red;padding-left: 1rem;">MOVIES <mark style=
+     "color: black;background-color: rgb(107, 69, 69) ;">
+APP-2025 
+     </mark>
+     &#169;</div>
+      <hr style="width: 24rem;float: left;">
+<hr style="width: 20rem;margin-right: 4px;padding-left: 4rem;text-align: center;align-items: center;border-right: 5rem;">
+   
+<!--LOGIN FORM-->
+<div class="loginForm">
+<h2 id="day"> Provide Your Details</h2>
+    <form action="http://127.0.0.1:5501/MOVIE.HTML?#" method="get" autocomplete="on">
+        <label>USERNAME : </label>
+<input type="text" name="signup" placeholder="USERNAME" text="signup"  style="height: 1.6rem;outline: none;border:
+ 0rem;border-radius: 2px; text-align: center; padding-bottom: 0px;outline-color: red; border-width: 0rem; outline-style: solid;outline-width: 0.1rem;">
+<br>
+<br><label style="float: left;padding-left: 20.1rem;">PASSWORD : </label>
+<input type="password" name="@mandy" pattern="@12345" placeholder="PASSWORD" password="mandy" style="height: 1.6rem;outline: none;border: 2rem;border-radius: 2px;margin-right: 19.5rem;
+outline-width: 0.1rem;outline-color: red; text-align: center; outline-style: solid;">
+
+<button type="submit" style="margin-top: 2rem;margin-left: 1rem;height: 3rem;font-family: Arial, Helvetica, sans-serif
+;font-size: x-large;outline: auto;color: black;border-radius: 1px;" value="mandy" >SIGN UP</button>
+<button type="button" style="margin-top: 2rem;margin-left: 1rem;height: 3rem;font-family: Arial, Helvetica, sans-serif
+;font-size: x-large;outline: auto;color: black;border-radius: 1px;" value="mandy" >LOGIN</button>
+ <br>
+<br><a href="#" style="margin-top: 5rem;font-family: Arial, Helvetica, sans-serif;font-size: small;font-weight: 500;">FORGOT PASSWORD</a>
+
+ <p style="margin-top: 4rem;text-align: center;font-size: small;font-family: Arial,
+  Helvetica, sans-serif;font-weight: 500;"><mark style="color: red;background-color: black;">Movies </mark>App-2025 &#169; </p>
+</form>
+
+
+
+</div>
+
+<script>
+    document.addEventListener('click',greet);
+    function greet(){
+        document.querySelector('#day').textContent='GOOD DAY';
+    }
+</script>
+</body>
+</html>
